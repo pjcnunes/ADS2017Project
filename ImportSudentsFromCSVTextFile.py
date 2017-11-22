@@ -20,7 +20,7 @@ def SearchSudentsByNumber(fname, number_to_search):
         number = eval(data_vector[1])
         if (number == number_to_search):
             found = True
-            break;
+            break
     if found:
         print("Student number %d found:" % (number_to_search))
         print(line)
